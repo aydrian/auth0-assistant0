@@ -15,6 +15,7 @@ export const withGoogleConnection = auth0AI.withTokenVault({
     'https://www.googleapis.com/auth/gmail.readonly',
     'https://www.googleapis.com/auth/gmail.compose',
     'https://www.googleapis.com/auth/calendar.events',
+    'https://www.googleapis.com/auth/tasks',
   ],
   refreshToken: getRefreshToken,
   credentialsContext: 'tool-call',
